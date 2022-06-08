@@ -11,13 +11,13 @@ sites:
     url: https://strapi.docred.com/
 
 workflowSchedule:
-  graphs: "*/5 * * * *"
-  responseTime: "*/5 * * * *"
+  graphs: "*/1 * * * *"
+  responseTime: "*/1 * * * *"
   staticSite: "0 */1 * * *"
   summary: "*/10 * * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
+  uptime: "*/1 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
